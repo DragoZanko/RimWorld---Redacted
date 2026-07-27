@@ -1,0 +1,38 @@
+Hello everyone, here's the mod's contents.
+
+
+
+++ Version 1.0
+
++ Functionality.
+- Animal sleeping spots can be placed under beds and tables, among other places.
+- The Comms console has an option to learn abilities (It works with Royalty psycasts, you just need the psylink level. Every skill with the corresponding patch will be added to the list. Pawns can be possessive with stacks, wait until they leave, pawns return after five days).
+
++ Implant.
+- Signal sigil (archotech, anchors the pawn's value to 0, just don't remove it).
+
++ Animals.
+- PinkCheetah (a medium-sized feline can accelerate for a while to intercept).
+- UltraBoa (an armored danger at the level of a bear in warm climates).
+
++ Traits.
+- Mithridatism (increases Toxic Resistance).
+- Manipulative (increases Social Impact).
+
++ Xenotypes.
+- With Biotech, the Rams (extremely inhuman and human).
+- With Ultra Genes, the Kattys (live life intensely).
+
++ Retexture.
+- With Odyssey, Scimitar Cats have three skin variants, and they lost their smilodon teeth (it won't be disabled).
+
+
+
+
+Want your mod's abilities to appear in the communications console training list? You can easily make them learnable with silver and a 5-day training period by adding this patch to your <AbilityDef> file:
+    <modExtensions>
+    <li Class="DragoZanko.Redacted.AbilityValueExtension">
+      <AbilityValue>500</AbilityValue>
+    </li>
+    </modExtensions>
+Replace `500` with your desired silver cost. `operationfindmod` will not work; please use `loadfolders` instead. Check the mod folder for a working Royalty-compatible example.

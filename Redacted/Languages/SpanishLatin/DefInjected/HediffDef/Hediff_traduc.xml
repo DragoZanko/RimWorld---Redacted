@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+<R_Hediff_SignalSigil.label>sigilo de señal</R_Hediff_SignalSigil.label>
+<R_Hediff_SignalSigil.labelNoun>un sigilo de señal archotech</R_Hediff_SignalSigil.labelNoun>
+<R_Hediff_SignalSigil.description>Un sigilo de señal archotech instalado.</R_Hediff_SignalSigil.description>
+
+
+
+
+
+  <R_Run_Hediff.label>corriendo</R_Run_Hediff.label>
+  <R_Run_Hediff.description>Está corriendo.</R_Run_Hediff.description>
+
+</LanguageData>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+<R_InstallSignalSigil.label>instalar sigilo de señal</R_InstallSignalSigil.label>
+<R_InstallSignalSigil.description>Instala un sigilo de señal archotech. Al contacto, se siente una sensación extraña en los músculos y los huesos.</R_InstallSignalSigil.description>
+<R_InstallSignalSigil.jobString>Instalando sigilo de señal.</R_InstallSignalSigil.jobString>
+
+<R_RemoveSignalSigil.label>extraer sigilo de señal</R_RemoveSignalSigil.label>
+<R_RemoveSignalSigil.description>Extrae un sigilo de señal archotech. Su extracción puede causar daños estructurales en huesos y músculos.</R_RemoveSignalSigil.description>
+<R_RemoveSignalSigil.jobString>Extrayendo sigilo de señal.</R_RemoveSignalSigil.jobString>
+
+</LanguageData>

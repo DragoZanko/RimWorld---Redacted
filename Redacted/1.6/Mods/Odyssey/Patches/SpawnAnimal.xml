@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/BiomeDef[defName="Grasslands"]/wildAnimals</xpath>
+    <value>
+      <R_PinkCheetah>0.3</R_PinkCheetah>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/BiomeDef[defName="Glowforest"]/wildAnimals</xpath>
+    <value>
+      <R_PinkCheetah>0.1</R_PinkCheetah>
+    </value>
+  </Operation>
+
+
+
+
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/BiomeDef[defName="LavaField"]/wildAnimals</xpath>
+    <value>
+      <R_UltraBoa>0.1</R_UltraBoa>
+    </value>
+  </Operation>
+
+</Patch>

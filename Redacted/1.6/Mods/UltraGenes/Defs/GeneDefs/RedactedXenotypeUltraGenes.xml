@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<XenotypeDef>
+  <defName>R_Katty</defName>
+  <label>katty</label>
+  <description>"A perfect design, this genetic line was created by unknown superior beings using archotech technology. They are not like other humans; they are better. They are stronger. They are more intelligent. They possess the whole truth in every sense." That is the synopsis of the famous idol series for which this xenotype was created. The name, as well as the entire series and the controversies surrounding it, have vanished, just like the moon where "dark events" took place.</description>
+  <descriptionShort>A line designed by a solitary scientist in a corporate world where everything was gray and emotions were forbidden. What happened next was swift and blurry. Currently, nothing remarkable is known about this xenotype; they are merely a memento teneritudinis, "remember tenderness," a call to live, at least for the few good things.</descriptionShort>
+  <iconPath>UI/Icons/Xenotypes/Baseliner</iconPath>
+  <inheritable>true</inheritable>
+  <chanceToUseNameMaker>1</chanceToUseNameMaker>
+  <combatPowerFactor>1.3</combatPowerFactor>
+  <genes>
+    <li>UG_DigitigradeGait</li>
+    <li>Ears_Cat</li>
+    <li>Tail_Furry</li>
+    <li>MoveSpeed_VeryQuick</li>
+    <li>MinTemp_SmallIncrease</li>
+    <li>Aggression_HyperAggressive</li>
+    <li>MeleeDamage_Strong</li>
+    <li>VerySleepy</li>
+    <li>Libido_High</li>
+    <li>Fertile</li>
+    <li>Instability_Mild</li>
+  </genes>
+</XenotypeDef>
+
+</Defs>

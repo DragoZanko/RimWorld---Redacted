@@ -1,0 +1,32 @@
+<Defs>
+
+<TraitDef>
+  <defName>R_Mithridatism</defName>
+  <commonality>0.5</commonality>
+  <degreeDatas>
+    <li>
+      <label>mithridatism</label>
+      <description>{PAWN_nameDef}'s body has adapted to toxins through prolonged or controlled exposure, granting a natural resistance.</description>
+      <degree>0</degree>
+      <statOffsets>
+        <ToxicResistance>0.30</ToxicResistance>
+      </statOffsets>
+    </li>
+  </degreeDatas>
+</TraitDef>
+
+<TraitDef>
+  <defName>R_Manipulative</defName>
+  <commonality>1.0</commonality>
+  <degreeDatas>
+    <li>
+      <label>Manipulador</label>
+      <description>{PAWN_nameDef} view people as tools and understand that status is what truly matters in society.</description>
+      <statOffsets>
+        <SocialImpact>0.30</SocialImpact>
+      </statOffsets>
+    </li>
+  </degreeDatas>
+</TraitDef>
+
+</Defs>

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<ThingDef ParentName="AnimalThingBase">
+    <defName>R_UltraBoa</defName>
+    <label>ultra boa</label>
+    <description>Its armored head has blade-like teeth that cut and penetrate, a large reinforced bone sclera welded to the skull prevents eye damage, the skull is small but robust and the union of the upper sections give it the spear-soul visible on its forehead, at the tip of its tail a formation of layers forms a circular mace. It lost the ability to swallow, its weight makes it difficult to coil around prey, its consistency complicates squeezing as much as it should, its skeleton forms part of the respiratory system, its scales point outwards for traction, now it hunts by fighting, stabbing with its head, cutting with its bite or striking with its tail, relying on its armor to endure, its close-to-the-ground position to stay in combat and weight to overcome.</description>
+    <statBases>
+      <MoveSpeed>3.7</MoveSpeed>
+      <MarketValue>700</MarketValue>
+      <ComfyTemperatureMin>-5</ComfyTemperatureMin>
+      <ComfyTemperatureMax>50</ComfyTemperatureMax>
+      <Wildness>0.80</Wildness>
+      <Mass>60</Mass>
+      <ArmorRating_Blunt>0.30</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.60</ArmorRating_Sharp>
+      <FilthRate>2</FilthRate>
+      <Flammability>0.4</Flammability>
+    </statBases>
+    <tools>
+      <li>
+        <label>razor fangs</label>
+        <capacities>
+          <li>Bite</li>
+        </capacities>
+        <power>13</power>
+        <cooldownTime>1.7</cooldownTime>
+        <chanceFactor>0.4</chanceFactor>
+        <linkedBodyPartsGroup>MouthAttackTool</linkedBodyPartsGroup>
+        <armorPenetration>0.2</armorPenetration>
+      </li>
+      <li>
+        <label>spear head</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>20</power>
+        <cooldownTime>2.0</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <armorPenetration>0.5</armorPenetration>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>20</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      <li>
+        <label>tail mace</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>15</power>
+        <cooldownTime>1.5</cooldownTime>
+        <linkedBodyPartsGroup>TailAttackTool</linkedBodyPartsGroup>
+        <armorPenetration>0.24</armorPenetration>
+      </li>
+    </tools>
+    <comps>
+      <li Class="CompProperties_EggLayer">
+        <eggUnfertilizedDef>R_EggUltraBoaUnfertilized</eggUnfertilizedDef>
+        <eggFertilizedDef>R_EggUltraBoaFertilized</eggFertilizedDef>
+        <eggFertilizationCountMax>1</eggFertilizationCountMax>
+        <eggLayIntervalDays>20</eggLayIntervalDays>
+        <eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
+        <eggCountRange>1</eggCountRange>
+      </li>
+    </comps>
+    <race>
+      <body>R_UltraBoaBody</body>
+      <predator>true</predator>
+      <maxPreyBodySize>3</maxPreyBodySize>
+      <baseBodySize>2.0</baseBodySize>
+      <baseHungerRate>0.35</baseHungerRate>
+      <baseHealthScale>2.8</baseHealthScale>
+      <foodType>CarnivoreAnimal, OvivoreAnimal</foodType>
+      <leatherDef>Leather_Lizard</leatherDef>
+      <useMeatFrom>Cow</useMeatFrom>
+      <meatLabel>meat</meatLabel>
+      <petness>0.01</petness>
+      <manhunterOnTameFailChance>0.01</manhunterOnTameFailChance>
+      <manhunterOnDamageChance>1.00</manhunterOnDamageChance>
+      <nameOnTameChance>1</nameOnTameChance>
+      <lifeExpectancy>70</lifeExpectancy>
+      <lifeStageAges>
+        <li>
+          <def>AnimalBaby</def>
+          <minAge>0</minAge>
+        </li>
+        <li>
+          <def>AnimalJuvenile</def>
+          <minAge>0.6</minAge>
+        </li>
+        <li>
+          <def>AnimalAdult</def>
+          <minAge>2.0</minAge>
+          <soundWounded>Pawn_Cobra_Wounded</soundWounded>
+          <soundDeath>Pawn_Cobra_Death</soundDeath>
+          <soundAngry>Pawn_Cobra_Angry</soundAngry>
+        </li>
+      </lifeStageAges>
+      <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+      <soundEating>Reptile_Eat</soundEating>
+      <headPosPerRotation>
+        <li>(-0.03, 0, 0.35)</li>
+        <li>(0.03, 0, 0.36)</li>
+        <li>(-0.05, 0, 0.28)</li>
+        <li>(-0.03, 0, 0.36)</li>
+      </headPosPerRotation>
+    </race>
+    <tradeTags>
+      <li>AnimalExotic</li>
+      <li>AnimalFighter</li>
+    </tradeTags>
+  </ThingDef>
+
+
+
+  <PawnKindDef ParentName="AnimalKindBase">
+    <defName>R_UltraBoa</defName>
+    <label>ultra boa</label>
+    <race>R_UltraBoa</race>
+    <combatPower>200</combatPower>
+    <ecoSystemWeight>0.7</ecoSystemWeight>
+    <lifeStages>
+      <li>
+        <label>juvenile ultra boa</label>
+        <bodyGraphicData>
+          <texPath>Animal/UltraBoa/UltraBoa</texPath>
+          <drawSize>1.1</drawSize>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Animal/UltraBoa/Dessicated_UltraBoa</texPath>
+          <drawSize>1.1</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Animal/UltraBoa/UltraBoa</texPath>
+          <drawSize>1.6</drawSize>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Animal/UltraBoa/Dessicated_UltraBoa</texPath>
+          <drawSize>1.6</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <label>ancient ultra boa</label>
+        <bodyGraphicData>
+          <texPath>Animal/UltraBoa/UltraBoa</texPath>
+          <drawSize>2.3</drawSize>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Animal/UltraBoa/Dessicated_UltraBoa</texPath>
+          <drawSize>2.3</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+
+</Defs>

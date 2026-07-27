@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <JobDef>
+    <defName>UseElevatorCommsConsole</defName>
+    <driverClass>DragoZanko.Redacted.JobDriver_UseElevatorCommsConsole</driverClass>
+    <reportString>using comms console.</reportString>
+  </JobDef>
+
+  <JobDef>
+    <defName>FetchSilverAndLeaveForAbility</defName>
+    <driverClass>DragoZanko.Redacted.JobDriver_FetchSilverAndLeaveForAbility</driverClass>
+    <reportString>leaving to learn ability.</reportString>
+  </JobDef>
+
+</Defs>

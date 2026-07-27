@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<ThingDef ParentName="BodyPartArchotechBase">
+  <defName>R_SignalSigil</defName>
+  <label>signal sigil</label>
+  <description>An archotech-grade implant that disrupts signals and presence at a distance.</description>
+  <descriptionHyperlinks><RecipeDef>R_InstallSignalSigil</RecipeDef></descriptionHyperlinks>
+  <statBases>
+    <Mass>0.1</Mass>
+    <MarketValue>3000</MarketValue>
+  </statBases>
+  <thingSetMakerTags>
+    <li>RewardStandardCore</li>
+  </thingSetMakerTags>
+</ThingDef>
+
+<HediffDef ParentName="ImplantHediffBase">
+  <defName>R_Hediff_SignalSigil</defName>
+  <hediffClass>DragoZanko.Redacted.Hediff_SignalSigil</hediffClass>
+  <label>signal sigil</label>
+  <labelNoun>an archotech signal sigil</labelNoun>
+  <description>An installed archotech signal sigil.</description>
+  <descriptionHyperlinks><ThingDef>R_SignalSigil</ThingDef></descriptionHyperlinks>
+  <spawnThingOnRemoved>R_SignalSigil</spawnThingOnRemoved>
+</HediffDef>
+
+<RecipeDef ParentName="SurgeryInstallImplantBase">
+  <defName>R_InstallSignalSigil</defName>
+  <label>install signal sigil</label>
+  <description>Install an archotech signal sigil. Upon contact, a strange sensation is felt in the muscles and bones.</description>
+  <descriptionHyperlinks>
+    <ThingDef>R_SignalSigil</ThingDef>
+    <HediffDef>R_Hediff_SignalSigil</HediffDef>
+  </descriptionHyperlinks>
+  <jobString>Installing signal sigil.</jobString>
+  <ingredients>
+    <li>
+      <filter>
+        <thingDefs>
+          <li>R_SignalSigil</li>
+        </thingDefs>
+      </filter>
+      <count>1</count>
+    </li>
+  </ingredients>
+  <fixedIngredientFilter>
+    <thingDefs>
+      <li>R_SignalSigil</li>
+    </thingDefs>
+  </fixedIngredientFilter>
+  <appliedOnFixedBodyParts>
+    <li>Torso</li>
+  </appliedOnFixedBodyParts>
+  <addsHediff>R_Hediff_SignalSigil</addsHediff>
+</RecipeDef>
+
+<RecipeDef ParentName="SurgeryRemoveImplantBase">
+  <defName>R_RemoveSignalSigil</defName>
+  <label>remove signal sigil</label>
+  <description>Remove an archotech signal sigil. Its removal can cause structural damage to bones and muscles.</description>
+  <descriptionHyperlinks>
+    <ThingDef>R_SignalSigil</ThingDef>
+    <HediffDef>R_Hediff_SignalSigil</HediffDef>
+  </descriptionHyperlinks>
+  <jobString>Removing signal sigil.</jobString>
+  <removesHediff>R_Hediff_SignalSigil</removesHediff>
+</RecipeDef>
+
+</Defs>

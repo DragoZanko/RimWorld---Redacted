@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+<R_SignalSigil.label>sigilo de señal</R_SignalSigil.label>
+<R_SignalSigil.description>Un implante de grado archotech que interrumpe las señales y presencia a la distancia.</R_SignalSigil.description>
+
+
+
+
+
+  <R_PinkCheetah.label>guepardo rosa</R_PinkCheetah.label>
+  <R_PinkCheetah.description>Un gran felino cuya reconstrucción para la reintroducción en los ecosistemas fue diferente, priorizando qué tan rápido puede ser para alcanzar grupos e individuos de animales pequeños. Tomaron la base del guepardo original, siendo la mejora principal el pulmón de doble turbina, una actualización del pulmón de turbina experimental en humanos que; aprovechando la disposición horizontal del torso, coloca dos espiráculos para un mejor flujo de aire al moverse, teniendo una entrada en la parte delantera a través de la nariz y un escape a través de espiráculos en la espalda, el flujo aprovecha el movimiento mismo para una entrada cada vez menos influyente en el torso, otras mejoras están en las venas para una mejor circulación, mientras que los pelos son huecos, estos dos últimos junto con algunos de los ajustes menores son para prevenir muertes por frío.</R_PinkCheetah.description>
+  <R_PinkCheetah.tools.left_claw.label>garra izquierda</R_PinkCheetah.tools.left_claw.label>
+  <R_PinkCheetah.tools.left_claw.labelNoLocation>garra</R_PinkCheetah.tools.left_claw.labelNoLocation>
+  <R_PinkCheetah.tools.right_claw.label>garra derecha</R_PinkCheetah.tools.right_claw.label>
+  <R_PinkCheetah.tools.right_claw.labelNoLocation>garra</R_PinkCheetah.tools.right_claw.labelNoLocation>
+  <R_PinkCheetah.tools.2.label>colmillos</R_PinkCheetah.tools.2.label>
+  <R_PinkCheetah.tools.head.label>cabeza</R_PinkCheetah.tools.head.label>
+
+
+
+
+
+  <R_UltraBoa.label>ultra boa</R_UltraBoa.label>
+  <R_UltraBoa.description>su cabeza acorazada tiene dientes como cuchillas que cortan y penetran, una esclerótica de hueso grande reforzado y soldado al cráneo evita daños oculares, el cráneo es pequeño pero robusto y la unión de las secciones superiores le dan el alma de lanza visible en su frente, en la punta de su cola una formación de capas forma una maza circular. Perdió la capacidad de engullir, su peso dificulta enrollarse alrededor de la presa, su consistencia complica apretar tanto como debería, su esqueleto forma parte del sistema respiratorio, sus escamas hacen punta hacia afuera para tener tracción, ahora caza combatiendo, apuñalando con su cabeza, cortando con su mordida o impactando con su cola, confía en su armadura para resistir, su posición cercana al suelo para mantenerse en combate y peso para superar.</R_UltraBoa.description>
+  <R_UltraBoa.tools.0.label>colmillos navaja</R_UltraBoa.tools.0.label>
+  <R_UltraBoa.tools.1.label>cabeza de lanza</R_UltraBoa.tools.1.label>
+  <R_UltraBoa.tools.2.label>cola de maza</R_UltraBoa.tools.2.label>
+
+
+
+  <R_EggUltraBoaFertilized.label>huevo de ultra boa (fert.)</R_EggUltraBoaFertilized.label>
+  <R_EggUltraBoaFertilized.description>Un huevo de ultra boa fertilizado. Si todo va bien, deberia eclosionar en un bebe ultra boa. Se puede comer crudo, pero es mucho mejor cocido.</R_EggUltraBoaFertilized.description>
+
+  <R_EggUltraBoaUnfertilized.label>huevo de ultra boa (no fert.)</R_EggUltraBoaUnfertilized.label>
+  <R_EggUltraBoaUnfertilized.description>Un huevo de ultra boa sin fertilizar. Se puede comer crudo, pero cocinado es mucho mejor.</R_EggUltraBoaUnfertilized.description>
+
+</LanguageData>

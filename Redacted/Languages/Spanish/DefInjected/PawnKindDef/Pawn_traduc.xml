@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <R_PinkCheetah.label>guepardo rosa</R_PinkCheetah.label>
+  <R_PinkCheetah.lifeStages.0.label>cachorro de guepardo rosa</R_PinkCheetah.lifeStages.0.label>
+  <R_PinkCheetah.lifeStages.1.label>guepardo rosa joven</R_PinkCheetah.lifeStages.1.label>
+
+
+
+
+
+  <R_UltraBoa.label>ultra boa</R_UltraBoa.label>
+  <R_UltraBoa.lifeStages.0.label>ultra boa juvenil</R_UltraBoa.lifeStages.0.label>
+  <R_UltraBoa.lifeStages.2.label>ultra boa antigua</R_UltraBoa.lifeStages.2.label>
+
+</LanguageData>

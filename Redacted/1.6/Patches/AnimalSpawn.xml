@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/BiomeDef[defName="AridShrubland"]/wildAnimals</xpath>
+    <value>
+      <R_PinkCheetah>0.2</R_PinkCheetah>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/BiomeDef[defName="TemperateForest"]/wildAnimals</xpath>
+    <value>
+      <R_PinkCheetah>0.1</R_PinkCheetah>
+    </value>
+  </Operation>
+
+
+
+
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/BiomeDef[defName="Desert"]/wildAnimals</xpath>
+    <value>
+      <R_UltraBoa>0.2</R_UltraBoa>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/BiomeDef[defName="TropicalRainforest"]/wildAnimals</xpath>
+    <value>
+      <R_UltraBoa>0.1</R_UltraBoa>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/BiomeDef[defName="TropicalSwamp"]/wildAnimals</xpath>
+    <value>
+      <R_UltraBoa>0.1</R_UltraBoa>
+    </value>
+  </Operation>
+
+</Patch>
