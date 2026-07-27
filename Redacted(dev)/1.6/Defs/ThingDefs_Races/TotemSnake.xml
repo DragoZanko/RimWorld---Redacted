@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<BodyDef>
+    <defName>R_UltraBoaBody</defName>
+    <label>ultra boa body</label>
+    <corePart>
+      <def>SnakeBody</def>
+      <height>Middle</height>
+      <depth>Outside</depth>
+      <parts>
+        <li>
+          <def>Stomach</def>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Heart</def>
+          <coverage>0.02</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Lung</def>
+          <customLabel>left lung</customLabel>
+          <coverage>0.02</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Lung</def>
+          <customLabel>right lung</customLabel>
+          <coverage>0.02</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Kidney</def>
+          <customLabel>left kidney</customLabel>
+          <coverage>0.02</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Kidney</def>
+          <customLabel>right kidney</customLabel>
+          <coverage>0.02</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Liver</def>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>SnakeHead</def>
+          <coverage>0.17</coverage>
+          <groups>
+            <li>HeadAttackTool</li>
+          </groups>
+          <parts>
+            <li>
+              <def>Skull</def>
+              <coverage>0.40</coverage>
+              <depth>Inside</depth>
+              <parts>
+                <li>
+                  <def>Brain</def>
+                  <coverage>0.40</coverage>
+                  <depth>Inside</depth>
+                </li>
+              </parts>
+            </li>
+            <li>
+              <def>Eye</def>
+              <customLabel>left eye</customLabel>
+              <coverage>0.02</coverage>
+            </li>
+            <li>
+              <def>Eye</def>
+              <customLabel>right eye</customLabel>
+              <coverage>0.02</coverage>
+            </li>
+            <li>
+              <def>Nose</def>
+              <coverage>0.07</coverage>
+            </li>
+            <li>
+              <def>SnakeMouth</def>
+              <coverage>0.13</coverage>
+              <groups>
+                <li>MouthAttackTool</li>
+              </groups>
+            </li>
+            <li>
+              <def>Horn</def>
+              <customLabel>horn</customLabel>
+              <coverage>0.30</coverage>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>Tail</def>
+          <coverage>0.05</coverage>
+          <groups>
+            <li>TailAttackTool</li>
+          </groups>
+        </li>
+      </parts>
+    </corePart>
+  </BodyDef>
+
+  <BodyPartGroupDef>
+    <defName>MouthAttackTool</defName>
+    <label>mouth</label>
+  </BodyPartGroupDef>
+
+  <BodyPartGroupDef>
+    <defName>TailAttackTool</defName>
+    <label>tail</label>
+  </BodyPartGroupDef>
+
+
+
+<ThingDef ParentName="EggFertBase">
+    <defName>R_EggUltraBoaFertilized</defName>
+    <label>ultra boa egg (fert.)</label>
+    <description>A fertilized ultra boa egg. If all goes well, it should hatch into a baby ultra boa. It can be eaten raw, but it is much better cooked.</description>
+    <possessionCount>1</possessionCount>
+    <graphicData>
+      <texPath>Things/Item/Resource/AnimalProductRaw/EggOval</texPath>
+      <color>(0.41, 0.37, 0.38)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>60.0</MarketValue>
+      <MaxHitPoints>30</MaxHitPoints>
+      <Flammability>0.4</Flammability>
+      <Mass>0.2</Mass>
+      <DeteriorationRate>1</DeteriorationRate>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Hatcher">
+        <hatcherDaystoHatch>13.5</hatcherDaystoHatch>
+        <hatcherPawn>R_UltraBoa</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="EggUnfertBase">
+    <defName>R_EggUltraBoaUnfertilized</defName>
+    <label>ultra boa egg (unfert.)</label>
+    <description>An unfertilized ultra boa egg. It can be eaten raw, but it is much better cooked.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/AnimalProductRaw/EggOval</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>40.0</MarketValue>
+      <MaxHitPoints>30</MaxHitPoints>
+      <Flammability>0.4</Flammability>
+      <Mass>0.2</Mass>
+      <DeteriorationRate>1</DeteriorationRate>
+    </statBases>
+  </ThingDef>
+
+</Defs>

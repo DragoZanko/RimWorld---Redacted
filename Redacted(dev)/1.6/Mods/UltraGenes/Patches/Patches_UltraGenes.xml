@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+<Operation Class="PatchOperationAdd">
+  <xpath>/Defs/FactionDef[@Name="OutlanderFactionBase"]/xenotypeSet/xenotypeChances</xpath>
+  <value>
+    <R_Katty>0.008</R_Katty>
+  </value>
+</Operation>
+
+<Operation Class="PatchOperationFindMod">
+  <mods>
+    <li>Ludeon.RimWorld.Royalty</li>
+  </mods>
+  <match Class="PatchOperationAdd">
+    <xpath>/Defs/FactionDef[defName="Empire"]/xenotypeSet/xenotypeChances</xpath>
+    <value>
+      <R_Katty>0.002</R_Katty>
+    </value>
+  </match>
+</Operation>
+
+</Patch>

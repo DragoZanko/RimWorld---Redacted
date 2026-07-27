@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+  <Operation Class="PatchOperationSequence">
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="AnimalSleepingSpot"]/altitudeLayer</xpath>
+        <value>
+          <altitudeLayer>FloorEmplacement</altitudeLayer>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="AnimalSleepingSpot"]/building</xpath>
+        <value>
+          <isEdifice>false</isEdifice>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="AnimalSleepingSpot"]</xpath>
+        <value>
+          <placeWorkers>
+            <li>DragoZanko.Redacted.PlaceWorker_OnFurnitureButNotWalls</li>
+          </placeWorkers>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+
+</Patch>

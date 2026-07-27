@@ -1,0 +1,656 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationSequence">
+    <operations>
+
+      <li Class="PatchOperationConditional">
+        <xpath>Defs/AbilityDef[defName="Painblock"]/modExtensions</xpath>
+        <match Class="PatchOperationAdd">
+          <xpath>Defs/AbilityDef[defName="Painblock"]/modExtensions</xpath>
+          <value>
+            <li Class="DragoZanko.Redacted.AbilityValueExtension">
+              <AbilityValue>350</AbilityValue>
+            </li>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>Defs/AbilityDef[defName="Painblock"]</xpath>
+          <value>
+            <modExtensions>
+              <li Class="DragoZanko.Redacted.AbilityValueExtension">
+                <AbilityValue>350</AbilityValue>
+              </li>
+            </modExtensions>
+          </value>
+        </nomatch>
+      </li>
+
+      <li Class="PatchOperationConditional">
+        <xpath>Defs/AbilityDef[defName="Stun"]/modExtensions</xpath>
+        <match Class="PatchOperationAdd">
+          <xpath>Defs/AbilityDef[defName="Stun"]/modExtensions</xpath>
+          <value>
+            <li Class="DragoZanko.Redacted.AbilityValueExtension">
+              <AbilityValue>350</AbilityValue>
+            </li>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>Defs/AbilityDef[defName="Stun"]</xpath>
+          <value>
+            <modExtensions>
+              <li Class="DragoZanko.Redacted.AbilityValueExtension">
+                <AbilityValue>350</AbilityValue>
+              </li>
+            </modExtensions>
+          </value>
+        </nomatch>
+      </li>
+
+      <li Class="PatchOperationConditional">
+        <xpath>Defs/AbilityDef[defName="Burden"]/modExtensions</xpath>
+        <match Class="PatchOperationAdd">
+          <xpath>Defs/AbilityDef[defName="Burden"]/modExtensions</xpath>
+          <value>
+            <li Class="DragoZanko.Redacted.AbilityValueExtension">
+              <AbilityValue>350</AbilityValue>
+            </li>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>Defs/AbilityDef[defName="Burden"]</xpath>
+          <value>
+            <modExtensions>
+              <li Class="DragoZanko.Redacted.AbilityValueExtension">
+                <AbilityValue>350</AbilityValue>
+              </li>
+            </modExtensions>
+          </value>
+        </nomatch>
+      </li>
+
+      <li Class="PatchOperationConditional">
+        <xpath>Defs/AbilityDef[defName="SolarPinhole"]/modExtensions</xpath>
+        <match Class="PatchOperationAdd">
+          <xpath>Defs/AbilityDef[defName="SolarPinhole"]/modExtensions</xpath>
+          <value>
+            <li Class="DragoZanko.Redacted.AbilityValueExtension">
+              <AbilityValue>350</AbilityValue>
+            </li>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>Defs/AbilityDef[defName="SolarPinhole"]</xpath>
+          <value>
+            <modExtensions>
+              <li Class="DragoZanko.Redacted.AbilityValueExtension">
+                <AbilityValue>350</AbilityValue>
+              </li>
+            </modExtensions>
+          </value>
+        </nomatch>
+      </li>
+
+      <li Class="PatchOperationConditional">
+        <xpath>Defs/AbilityDef[defName="WordOfTrust"]/modExtensions</xpath>
+        <match Class="PatchOperationAdd">
+          <xpath>Defs/AbilityDef[defName="WordOfTrust"]/modExtensions</xpath>
+          <value>
+            <li Class="DragoZanko.Redacted.AbilityValueExtension">
+              <AbilityValue>350</AbilityValue>
+            </li>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>Defs/AbilityDef[defName="WordOfTrust"]</xpath>
+          <value>
+            <modExtensions>
+              <li Class="DragoZanko.Redacted.AbilityValueExtension">
+                <AbilityValue>350</AbilityValue>
+              </li>
+            </modExtensions>
+          </value>
+        </nomatch>
+      </li>
+
+      <li Class="PatchOperationConditional">
+        <xpath>Defs/AbilityDef[defName="Chunkskip"]/modExtensions</xpath>
+        <match Class="PatchOperationAdd">
+          <xpath>Defs/AbilityDef[defName="Chunkskip"]/modExtensions</xpath>
+          <value>
+            <li Class="DragoZanko.Redacted.AbilityValueExtension">
+              <AbilityValue>350</AbilityValue>
+            </li>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>Defs/AbilityDef[defName="Chunkskip"]</xpath>
+          <value>
+            <modExtensions>
+              <li Class="DragoZanko.Redacted.AbilityValueExtension">
+                <AbilityValue>350</AbilityValue>
+              </li>
+            </modExtensions>
+          </value>
+        </nomatch>
+      </li>
+
+
+
+      <li Class="PatchOperationConditional">
+        <xpath>Defs/AbilityDef[defName="BlindingPulse"]/modExtensions</xpath>
+        <match Class="PatchOperationAdd">
+          <xpath>Defs/AbilityDef[defName="BlindingPulse"]/modExtensions</xpath>
+          <value>
+            <li Class="DragoZanko.Redacted.AbilityValueExtension">
+              <AbilityValue>600</AbilityValue>
+            </li>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>Defs/AbilityDef[defName="BlindingPulse"]</xpath>
+          <value>
+            <modExtensions>
+              <li Class="DragoZanko.Redacted.AbilityValueExtension">
+                <AbilityValue>600</AbilityValue>
+              </li>
+            </modExtensions>
+          </value>
+        </nomatch>
+      </li>
+
+      <li Class="PatchOperationConditional">
+        <xpath>Defs/AbilityDef[defName="EntropyDump"]/modExtensions</xpath>
+        <match Class="PatchOperationAdd">
+          <xpath>Defs/AbilityDef[defName="EntropyDump"]/modExtensions</xpath>
+          <value>
+            <li Class="DragoZanko.Redacted.AbilityValueExtension">
+              <AbilityValue>600</AbilityValue>
+            </li>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>Defs/AbilityDef[defName="EntropyDump"]</xpath>
+          <value>
+            <modExtensions>
+              <li Class="DragoZanko.Redacted.AbilityValueExtension">
+                <AbilityValue>600</AbilityValue>
+              </li>
+            </modExtensions>
+          </value>
+        </nomatch>
+      </li>
+
+      <li Class="PatchOperationConditional">
+        <xpath>Defs/AbilityDef[defName="Waterskip"]/modExtensions</xpath>
+        <match Class="PatchOperationAdd">
+          <xpath>Defs/AbilityDef[defName="Waterskip"]/modExtensions</xpath>
+          <value>
+            <li Class="DragoZanko.Redacted.AbilityValueExtension">
+              <AbilityValue>600</AbilityValue>
+            </li>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>Defs/AbilityDef[defName="Waterskip"]</xpath>
+          <value>
+            <modExtensions>
+              <li Class="DragoZanko.Redacted.AbilityValueExtension">
+                <AbilityValue>600</AbilityValue>
+              </li>
+            </modExtensions>
+          </value>
+        </nomatch>
+      </li>
+
+      <li Class="PatchOperationConditional">
+        <xpath>Defs/AbilityDef[defName="WordOfJoy"]/modExtensions</xpath>
+        <match Class="PatchOperationAdd">
+          <xpath>Defs/AbilityDef[defName="WordOfJoy"]/modExtensions</xpath>
+          <value>
+            <li Class="DragoZanko.Redacted.AbilityValueExtension">
+              <AbilityValue>600</AbilityValue>
+            </li>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>Defs/AbilityDef[defName="WordOfJoy"]</xpath>
+          <value>
+            <modExtensions>
+              <li Class="DragoZanko.Redacted.AbilityValueExtension">
+                <AbilityValue>600</AbilityValue>
+              </li>
+            </modExtensions>
+          </value>
+        </nomatch>
+      </li>
+
+
+
+      <li Class="PatchOperationConditional">
+        <xpath>Defs/AbilityDef[defName="Beckon"]/modExtensions</xpath>
+        <match Class="PatchOperationAdd">
+          <xpath>Defs/AbilityDef[defName="Beckon"]/modExtensions</xpath>
+          <value>
+            <li Class="DragoZanko.Redacted.AbilityValueExtension">
+              <AbilityValue>850</AbilityValue>
+            </li>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>Defs/AbilityDef[defName="Beckon"]</xpath>
+          <value>
+            <modExtensions>
+              <li Class="DragoZanko.Redacted.AbilityValueExtension">
+                <AbilityValue>850</AbilityValue>
+              </li>
+            </modExtensions>
+          </value>
+        </nomatch>
+      </li>
+
+      <li Class="PatchOperationConditional">
+        <xpath>Defs/AbilityDef[defName="VertigoPulse"]/modExtensions</xpath>
+        <match Class="PatchOperationAdd">
+          <xpath>Defs/AbilityDef[defName="VertigoPulse"]/modExtensions</xpath>
+          <value>
+            <li Class="DragoZanko.Redacted.AbilityValueExtension">
+              <AbilityValue>850</AbilityValue>
+            </li>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>Defs/AbilityDef[defName="VertigoPulse"]</xpath>
+          <value>
+            <modExtensions>
+              <li Class="DragoZanko.Redacted.AbilityValueExtension">
+                <AbilityValue>850</AbilityValue>
+              </li>
+            </modExtensions>
+          </value>
+        </nomatch>
+      </li>
+
+      <li Class="PatchOperationConditional">
+        <xpath>Defs/AbilityDef[defName="ChaosSkip"]/modExtensions</xpath>
+        <match Class="PatchOperationAdd">
+          <xpath>Defs/AbilityDef[defName="ChaosSkip"]/modExtensions</xpath>
+          <value>
+            <li Class="DragoZanko.Redacted.AbilityValueExtension">
+              <AbilityValue>850</AbilityValue>
+            </li>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>Defs/AbilityDef[defName="ChaosSkip"]</xpath>
+          <value>
+            <modExtensions>
+              <li Class="DragoZanko.Redacted.AbilityValueExtension">
+                <AbilityValue>850</AbilityValue>
+              </li>
+            </modExtensions>
+          </value>
+        </nomatch>
+      </li>
+
+      <li Class="PatchOperationConditional">
+        <xpath>Defs/AbilityDef[defName="WordOfLove"]/modExtensions</xpath>
+        <match Class="PatchOperationAdd">
+          <xpath>Defs/AbilityDef[defName="WordOfLove"]/modExtensions</xpath>
+          <value>
+            <li Class="DragoZanko.Redacted.AbilityValueExtension">
+              <AbilityValue>850</AbilityValue>
+            </li>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>Defs/AbilityDef[defName="WordOfLove"]</xpath>
+          <value>
+            <modExtensions>
+              <li Class="DragoZanko.Redacted.AbilityValueExtension">
+                <AbilityValue>850</AbilityValue>
+              </li>
+            </modExtensions>
+          </value>
+        </nomatch>
+      </li>
+
+
+
+      <li Class="PatchOperationConditional">
+        <xpath>Defs/AbilityDef[defName="Skip"]/modExtensions</xpath>
+        <match Class="PatchOperationAdd">
+          <xpath>Defs/AbilityDef[defName="Skip"]/modExtensions</xpath>
+          <value>
+            <li Class="DragoZanko.Redacted.AbilityValueExtension">
+              <AbilityValue>1100</AbilityValue>
+            </li>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>Defs/AbilityDef[defName="Skip"]</xpath>
+          <value>
+            <modExtensions>
+              <li Class="DragoZanko.Redacted.AbilityValueExtension">
+                <AbilityValue>1100</AbilityValue>
+              </li>
+            </modExtensions>
+          </value>
+        </nomatch>
+      </li>
+
+      <li Class="PatchOperationConditional">
+        <xpath>Defs/AbilityDef[defName="Wallraise"]/modExtensions</xpath>
+        <match Class="PatchOperationAdd">
+          <xpath>Defs/AbilityDef[defName="Wallraise"]/modExtensions</xpath>
+          <value>
+            <li Class="DragoZanko.Redacted.AbilityValueExtension">
+              <AbilityValue>1100</AbilityValue>
+            </li>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>Defs/AbilityDef[defName="Wallraise"]</xpath>
+          <value>
+            <modExtensions>
+              <li Class="DragoZanko.Redacted.AbilityValueExtension">
+                <AbilityValue>1100</AbilityValue>
+              </li>
+            </modExtensions>
+          </value>
+        </nomatch>
+      </li>
+
+      <li Class="PatchOperationConditional">
+        <xpath>Defs/AbilityDef[defName="Smokepop"]/modExtensions</xpath>
+        <match Class="PatchOperationAdd">
+          <xpath>Defs/AbilityDef[defName="Smokepop"]/modExtensions</xpath>
+          <value>
+            <li Class="DragoZanko.Redacted.AbilityValueExtension">
+              <AbilityValue>1100</AbilityValue>
+            </li>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>Defs/AbilityDef[defName="Smokepop"]</xpath>
+          <value>
+            <modExtensions>
+              <li Class="DragoZanko.Redacted.AbilityValueExtension">
+                <AbilityValue>1100</AbilityValue>
+              </li>
+            </modExtensions>
+          </value>
+        </nomatch>
+      </li>
+
+      <li Class="PatchOperationConditional">
+        <xpath>Defs/AbilityDef[defName="Focus"]/modExtensions</xpath>
+        <match Class="PatchOperationAdd">
+          <xpath>Defs/AbilityDef[defName="Focus"]/modExtensions</xpath>
+          <value>
+            <li Class="DragoZanko.Redacted.AbilityValueExtension">
+              <AbilityValue>1100</AbilityValue>
+            </li>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>Defs/AbilityDef[defName="Focus"]</xpath>
+          <value>
+            <modExtensions>
+              <li Class="DragoZanko.Redacted.AbilityValueExtension">
+                <AbilityValue>1100</AbilityValue>
+              </li>
+            </modExtensions>
+          </value>
+        </nomatch>
+      </li>
+
+      <li Class="PatchOperationConditional">
+        <xpath>Defs/AbilityDef[defName="WordOfSerenity"]/modExtensions</xpath>
+        <match Class="PatchOperationAdd">
+          <xpath>Defs/AbilityDef[defName="WordOfSerenity"]/modExtensions</xpath>
+          <value>
+            <li Class="DragoZanko.Redacted.AbilityValueExtension">
+              <AbilityValue>1100</AbilityValue>
+            </li>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>Defs/AbilityDef[defName="WordOfSerenity"]</xpath>
+          <value>
+            <modExtensions>
+              <li Class="DragoZanko.Redacted.AbilityValueExtension">
+                <AbilityValue>1100</AbilityValue>
+              </li>
+            </modExtensions>
+          </value>
+        </nomatch>
+      </li>
+
+
+
+      <li Class="PatchOperationConditional">
+        <xpath>Defs/AbilityDef[defName="Berserk"]/modExtensions</xpath>
+        <match Class="PatchOperationAdd">
+          <xpath>Defs/AbilityDef[defName="Berserk"]/modExtensions</xpath>
+          <value>
+            <li Class="DragoZanko.Redacted.AbilityValueExtension">
+              <AbilityValue>1350</AbilityValue>
+            </li>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>Defs/AbilityDef[defName="Berserk"]</xpath>
+          <value>
+            <modExtensions>
+              <li Class="DragoZanko.Redacted.AbilityValueExtension">
+                <AbilityValue>1350</AbilityValue>
+              </li>
+            </modExtensions>
+          </value>
+        </nomatch>
+      </li>
+
+      <li Class="PatchOperationConditional">
+        <xpath>Defs/AbilityDef[defName="Invisibility"]/modExtensions</xpath>
+        <match Class="PatchOperationAdd">
+          <xpath>Defs/AbilityDef[defName="Invisibility"]/modExtensions</xpath>
+          <value>
+            <li Class="DragoZanko.Redacted.AbilityValueExtension">
+              <AbilityValue>1350</AbilityValue>
+            </li>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>Defs/AbilityDef[defName="Invisibility"]</xpath>
+          <value>
+            <modExtensions>
+              <li Class="DragoZanko.Redacted.AbilityValueExtension">
+                <AbilityValue>1350</AbilityValue>
+              </li>
+            </modExtensions>
+          </value>
+        </nomatch>
+      </li>
+
+      <li Class="PatchOperationConditional">
+        <xpath>Defs/AbilityDef[defName="Flashstorm"]/modExtensions</xpath>
+        <match Class="PatchOperationAdd">
+          <xpath>Defs/AbilityDef[defName="Flashstorm"]/modExtensions</xpath>
+          <value>
+            <li Class="DragoZanko.Redacted.AbilityValueExtension">
+              <AbilityValue>1350</AbilityValue>
+            </li>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>Defs/AbilityDef[defName="Flashstorm"]</xpath>
+          <value>
+            <modExtensions>
+              <li Class="DragoZanko.Redacted.AbilityValueExtension">
+                <AbilityValue>1350</AbilityValue>
+              </li>
+            </modExtensions>
+          </value>
+        </nomatch>
+      </li>
+
+      <li Class="PatchOperationConditional">
+        <xpath>Defs/AbilityDef[defName="WordOfInspiration"]/modExtensions</xpath>
+        <match Class="PatchOperationAdd">
+          <xpath>Defs/AbilityDef[defName="WordOfInspiration"]/modExtensions</xpath>
+          <value>
+            <li Class="DragoZanko.Redacted.AbilityValueExtension">
+              <AbilityValue>1350</AbilityValue>
+            </li>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>Defs/AbilityDef[defName="WordOfInspiration"]</xpath>
+          <value>
+            <modExtensions>
+              <li Class="DragoZanko.Redacted.AbilityValueExtension">
+                <AbilityValue>1350</AbilityValue>
+              </li>
+            </modExtensions>
+          </value>
+        </nomatch>
+      </li>
+
+      <li Class="PatchOperationConditional">
+        <xpath>Defs/AbilityDef[defName="Farskip"]/modExtensions</xpath>
+        <match Class="PatchOperationAdd">
+          <xpath>Defs/AbilityDef[defName="Farskip"]/modExtensions</xpath>
+          <value>
+            <li Class="DragoZanko.Redacted.AbilityValueExtension">
+              <AbilityValue>1350</AbilityValue>
+            </li>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>Defs/AbilityDef[defName="Farskip"]</xpath>
+          <value>
+            <modExtensions>
+              <li Class="DragoZanko.Redacted.AbilityValueExtension">
+                <AbilityValue>1350</AbilityValue>
+              </li>
+            </modExtensions>
+          </value>
+        </nomatch>
+      </li>
+
+
+
+      <li Class="PatchOperationConditional">
+        <xpath>Defs/AbilityDef[defName="BerserkPulse"]/modExtensions</xpath>
+        <match Class="PatchOperationAdd">
+          <xpath>Defs/AbilityDef[defName="BerserkPulse"]/modExtensions</xpath>
+          <value>
+            <li Class="DragoZanko.Redacted.AbilityValueExtension">
+              <AbilityValue>1500</AbilityValue>
+            </li>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>Defs/AbilityDef[defName="BerserkPulse"]</xpath>
+          <value>
+            <modExtensions>
+              <li Class="DragoZanko.Redacted.AbilityValueExtension">
+                <AbilityValue>1500</AbilityValue>
+              </li>
+            </modExtensions>
+          </value>
+        </nomatch>
+      </li>
+
+      <li Class="PatchOperationConditional">
+        <xpath>Defs/AbilityDef[defName="ManhunterPulse"]/modExtensions</xpath>
+        <match Class="PatchOperationAdd">
+          <xpath>Defs/AbilityDef[defName="ManhunterPulse"]/modExtensions</xpath>
+          <value>
+            <li Class="DragoZanko.Redacted.AbilityValueExtension">
+              <AbilityValue>1500</AbilityValue>
+            </li>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>Defs/AbilityDef[defName="ManhunterPulse"]</xpath>
+          <value>
+            <modExtensions>
+              <li Class="DragoZanko.Redacted.AbilityValueExtension">
+                <AbilityValue>1500</AbilityValue>
+              </li>
+            </modExtensions>
+          </value>
+        </nomatch>
+      </li>
+
+      <li Class="PatchOperationConditional">
+        <xpath>Defs/AbilityDef[defName="MassChaosSkip"]/modExtensions</xpath>
+        <match Class="PatchOperationAdd">
+          <xpath>Defs/AbilityDef[defName="MassChaosSkip"]/modExtensions</xpath>
+          <value>
+            <li Class="DragoZanko.Redacted.AbilityValueExtension">
+              <AbilityValue>1500</AbilityValue>
+            </li>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>Defs/AbilityDef[defName="MassChaosSkip"]</xpath>
+          <value>
+            <modExtensions>
+              <li Class="DragoZanko.Redacted.AbilityValueExtension">
+                <AbilityValue>1500</AbilityValue>
+              </li>
+            </modExtensions>
+          </value>
+        </nomatch>
+      </li>
+
+      <li Class="PatchOperationConditional">
+        <xpath>Defs/AbilityDef[defName="BulletShield"]/modExtensions</xpath>
+        <match Class="PatchOperationAdd">
+          <xpath>Defs/AbilityDef[defName="BulletShield"]/modExtensions</xpath>
+          <value>
+            <li Class="DragoZanko.Redacted.AbilityValueExtension">
+              <AbilityValue>1500</AbilityValue>
+            </li>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>Defs/AbilityDef[defName="BulletShield"]</xpath>
+          <value>
+            <modExtensions>
+              <li Class="DragoZanko.Redacted.AbilityValueExtension">
+                <AbilityValue>1500</AbilityValue>
+              </li>
+            </modExtensions>
+          </value>
+        </nomatch>
+      </li>
+
+      <li Class="PatchOperationConditional">
+        <xpath>Defs/AbilityDef[defName="Neuroquake"]/modExtensions</xpath>
+        <match Class="PatchOperationAdd">
+          <xpath>Defs/AbilityDef[defName="Neuroquake"]/modExtensions</xpath>
+          <value>
+            <li Class="DragoZanko.Redacted.AbilityValueExtension">
+              <AbilityValue>1500</AbilityValue>
+            </li>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>Defs/AbilityDef[defName="Neuroquake"]</xpath>
+          <value>
+            <modExtensions>
+              <li Class="DragoZanko.Redacted.AbilityValueExtension">
+                <AbilityValue>1500</AbilityValue>
+              </li>
+            </modExtensions>
+          </value>
+        </nomatch>
+      </li>
+
+    </operations>
+  </Operation>
+</Patch>

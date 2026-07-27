@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+<R_Mithridatism.degreeDatas.0.label>mitridatismo</R_Mithridatism.degreeDatas.0.label>
+<R_Mithridatism.degreeDatas.0.description>{PAWN_nameDef} ha adaptado su cuerpo a las toxinas mediante una exposición prolongada o controlada, lo que le otorga una resistencia natural.</R_Mithridatism.degreeDatas.0.description>
+
+<R_Manipulative.degreeDatas.0.label>manipulador</R_Manipulative.degreeDatas.0.label>
+<R_Manipulative.degreeDatas.0.description>{PAWN_nameDef} considera las personas como herramientas y comprende que el estatus es lo que realmente importa en la sociedad.</R_Manipulative.degreeDatas.0.description>
+
+</LanguageData>

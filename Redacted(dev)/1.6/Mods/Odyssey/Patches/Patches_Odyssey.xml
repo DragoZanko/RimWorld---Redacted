@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationAdd">
+  <xpath>Defs/PawnKindDef[defName="Cat_Scimitar"]</xpath>
+  <value>
+    <alternateGraphicChance>0.66</alternateGraphicChance>
+    <alternateGraphics>
+      <li><texPath>Animal/Homotherium/HomotheriumB</texPath></li>
+      <li><texPath>Animal/Homotherium/HomotheriumC</texPath></li>
+    </alternateGraphics>
+  </value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+  <xpath>Defs/PawnKindDef[defName="Cat_Scimitar"]/lifeStages</xpath>
+  <value>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Animal/Homotherium/HomotheriumA</texPath>
+          <drawSize>1.1</drawSize>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Animal/Homotherium/Dessicated_Homotherium</texPath>
+          <drawSize>1.1</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Animal/Homotherium/HomotheriumA</texPath>
+          <drawSize>1.4</drawSize>
+          <shadowData>
+            <volume>(0.3, 0.3, 0.3)</volume>
+            <offset>(0,0,-0.3)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Animal/Homotherium/Dessicated_Homotherium</texPath>
+          <drawSize>1.4</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Animal/Homotherium/HomotheriumA</texPath>
+          <drawSize>2.18</drawSize>
+          <shadowData>
+            <volume>(0.4, 0.4, 0.4)</volume>
+            <offset>(0,0,-0.1)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Animal/Homotherium/Dessicated_Homotherium</texPath>
+          <drawSize>2.18</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+    </lifeStages>
+  </value>
+</Operation>
+
+</Patch>

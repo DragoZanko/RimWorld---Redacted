@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>CETeam.CombatExtended</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <operations>
+
+
+
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[defName="R_PinkCheetah"]/statBases</xpath>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="R_PinkCheetah"]</xpath>
+            <value>
+              <statBases/>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="R_PinkCheetah"]/statBases</xpath>
+          <value>
+            <statBases Inherit="False">
+              <MeleeDodgeChance>0.26</MeleeDodgeChance>
+              <MeleeCritChance>0.1</MeleeCritChance>
+              <MeleeParryChance>0.04</MeleeParryChance>
+            </statBases>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="R_PinkCheetah"]/tools</xpath>
+          <value>
+            <tools Inherit="False">
+              <li Class="CombatExtended.ToolCE">
+                <label>left claw</label>
+                <capacities>
+                  <li>Scratch</li>
+                </capacities>
+                <surpriseAttack>
+                  <extraMeleeDamages>
+                    <li>
+                      <def>Stun</def>
+                      <amount>20</amount>
+                      <chance>1</chance>
+                    </li>
+                  </extraMeleeDamages>
+                </surpriseAttack>
+                <extraMeleeDamages/>
+                <armorPenetrationBlunt>0.4</armorPenetrationBlunt>
+                <armorPenetrationSharp>0.13</armorPenetrationSharp>
+                <power>7</power>
+                <cooldownTime>0.92</cooldownTime>
+                <linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
+              </li>
+              <li Class="CombatExtended.ToolCE">
+                <label>right claw</label>
+                <capacities>
+                  <li>Scratch</li>
+                </capacities>
+                <surpriseAttack>
+                  <extraMeleeDamages>
+                    <li>
+                      <def>Stun</def>
+                      <amount>20</amount>
+                      <chance>1</chance>
+                    </li>
+                  </extraMeleeDamages>
+                </surpriseAttack>
+                <extraMeleeDamages/>
+                <armorPenetrationBlunt>0.4</armorPenetrationBlunt>
+                <armorPenetrationSharp>0.13</armorPenetrationSharp>
+                <power>7</power>
+                <cooldownTime>0.92</cooldownTime>
+                <linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
+              </li>
+              <li Class="CombatExtended.ToolCE">
+                <label>teeth</label>
+                <capacities>
+                  <li>Bite</li>
+                </capacities>
+                <surpriseAttack>
+                  <extraMeleeDamages>
+                    <li>
+                      <def>Stun</def>
+                      <amount>20</amount>
+                      <chance>1</chance>
+                    </li>
+                  </extraMeleeDamages>
+                </surpriseAttack>
+                <extraMeleeDamages/>
+                <armorPenetrationBlunt>2.45</armorPenetrationBlunt>
+                <armorPenetrationSharp>0.13</armorPenetrationSharp>
+                <power>13</power>
+                <cooldownTime>1.37</cooldownTime>
+                <chanceFactor>0.8</chanceFactor>
+                <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+              </li>
+              <li Class="CombatExtended.ToolCE">
+                <label>head</label>
+                <capacities>
+                  <li>Blunt</li>
+                </capacities>
+                <surpriseAttack>
+                  <extraMeleeDamages/>
+                </surpriseAttack>
+                <extraMeleeDamages/>
+                <armorPenetrationBlunt>0.65</armorPenetrationBlunt>
+                <power>4</power>
+                <cooldownTime>0.97</cooldownTime>
+                <chanceFactor>0.2</chanceFactor>
+                <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+              </li>
+            </tools>
+          </value>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[defName="R_PinkCheetah"]/comps</xpath>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="R_PinkCheetah"]</xpath>
+            <value>
+              <comps/>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[defName="R_PinkCheetah"]/comps/li[@Class="CombatExtended.CompProperties_ArmorDurability"]</xpath>
+          <match Class="PatchOperationRemove">
+            <xpath>Defs/ThingDef[defName="R_PinkCheetah"]/comps/li[@Class="CombatExtended.CompProperties_ArmorDurability"]</xpath>
+          </match>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/ThingDef[defName="R_PinkCheetah"]/comps</xpath>
+          <value>
+            <li Class="CombatExtended.CompProperties_ArmorDurability">
+              <Durability>235</Durability>
+              <Regenerates>True</Regenerates>
+              <RegenInterval>600</RegenInterval>
+              <RegenValue>5</RegenValue>
+              <MinArmorPct>0.5</MinArmorPct>
+            </li>
+          </value>
+        </li>
+        <li Class="PatchOperationAddModExtension">
+          <xpath>Defs/ThingDef[defName="R_PinkCheetah"]</xpath>
+          <value>
+            <li Class="CombatExtended.PartialArmorExt">
+              <stats/>
+            </li>
+          </value>
+        </li>
+
+
+
+
+
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/ThingDef[defName="R_UltraBoa"]/statBases</xpath>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="R_UltraBoa"]</xpath>
+            <value>
+              <statBases/>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="R_UltraBoa"]/statBases</xpath>
+          <value>
+            <statBases Inherit="False">
+              <MeleeDodgeChance>0.04</MeleeDodgeChance>
+              <MeleeCritChance>0.22</MeleeCritChance>
+              <MeleeParryChance>0.04</MeleeParryChance>
+              <MoveSpeed>4.7</MoveSpeed>
+              <ArmorRating_Blunt>3</ArmorRating_Blunt>
+              <ArmorRating_Sharp>2.7</ArmorRating_Sharp>
+              <NightVisionEfficiency_Apparel>50</NightVisionEfficiency_Apparel>
+            </statBases>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="R_UltraBoa"]/tools</xpath>
+          <value>
+            <tools Inherit="False">
+              <li Class="CombatExtended.ToolCE">
+                <label>razor fangs</label>
+                <capacities>
+                  <li>Bite</li>
+                </capacities>
+                <armorPenetrationBlunt>1.12</armorPenetrationBlunt>
+                <armorPenetrationSharp>0.47</armorPenetrationSharp>
+                <power>17</power>
+                <cooldownTime>1.3</cooldownTime>
+                <chanceFactor>0.4</chanceFactor>
+                <linkedBodyPartsGroup>MouthAttackTool</linkedBodyPartsGroup>
+              </li>
+              <li Class="CombatExtended.ToolCE">
+                <label>spear head</label>
+                <capacities>
+                  <li>Stab</li>
+                </capacities>
+                <surpriseAttack>
+                  <extraMeleeDamages>
+                    <li>
+                      <def>Stun</def>
+                      <amount>20</amount>
+                      <chance>1</chance>
+                    </li>
+                  </extraMeleeDamages>
+                </surpriseAttack>
+                <armorPenetrationBlunt>1.12</armorPenetrationBlunt>
+                <armorPenetrationSharp>2.52</armorPenetrationSharp>
+                <power>34</power>
+                <cooldownTime>1.7</cooldownTime>
+                <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+              </li>
+              <li Class="CombatExtended.ToolCE">
+                <label>tail mace</label>
+                <capacities>
+                  <li>Blunt</li>
+                </capacities>
+                <armorPenetrationBlunt>6.29</armorPenetrationBlunt>
+                <armorPenetrationSharp>0.7</armorPenetrationSharp>
+                <power>17</power>
+                <cooldownTime>1</cooldownTime>
+                <linkedBodyPartsGroup>TailAttackTool</linkedBodyPartsGroup>
+              </li>
+            </tools>
+          </value>
+        </li>
+        <li Class="PatchOperationAddModExtension">
+          <xpath>Defs/ThingDef[defName="R_UltraBoa"]</xpath>
+          <value>
+            <li Class="CombatExtended.PartialArmorExt">
+              <stats>
+                <li>
+                  <ArmorRating_Sharp>0.75</ArmorRating_Sharp>
+                  <parts>
+                    <li>Tail</li>
+                  </parts>
+                </li>
+                <li>
+                  <ArmorRating_Blunt>0.75</ArmorRating_Blunt>
+                  <parts>
+                    <li>Tail</li>
+                  </parts>
+                </li>
+                <li>
+                  <ArmorRating_Sharp>0.5</ArmorRating_Sharp>
+                  <parts>
+                    <li>SnakeBody</li>
+                  </parts>
+                </li>
+                <li>
+                  <ArmorRating_Blunt>0.5</ArmorRating_Blunt>
+                  <parts>
+                    <li>SnakeBody</li>
+                  </parts>
+                </li>
+              </stats>
+            </li>
+          </value>
+        </li>
+
+
+
+      </operations>
+    </match>
+  </Operation>
+</Patch>
