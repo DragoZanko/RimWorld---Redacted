@@ -23,8 +23,13 @@ Hello everyone, here's the mod's contents.
 - With Biotech, the Rams (extremely inhuman and human).
 - With Ultra Genes, the Kattys (live life intensely).
 
++ ideology.
+- Spikecore version of the hood, and ceremonial hood (anomaly).
+
 + Retexture.
 - With Odyssey, Scimitar Cats have three skin variants, and they lost their smilodon teeth (it won't be disabled).
+- Hood texture.
+
 
 
 

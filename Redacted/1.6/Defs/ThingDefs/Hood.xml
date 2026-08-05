@@ -1,0 +1,12 @@
+<Defs>
+
+  <ThingStyleDef>
+    <defName>Spikecore_StalkerHood</defName>
+    <wornGraphicPath>Hoods/StalkerHood</wornGraphicPath>
+    <graphicData>
+      <texPath>Hoods/StalkerHood</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+  </ThingStyleDef>
+
+</Defs>
