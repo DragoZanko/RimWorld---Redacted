@@ -18,16 +18,4 @@
     </operations>
   </Operation>
 
-
-
-  <Operation Class="PatchOperationAdd">
-    <xpath>Defs/StyleCategoryDef[defName="Spikecore"]/thingDefStyles</xpath>
-    <value>
-      <li>
-        <thingDef>Apparel_HatHood</thingDef>
-        <styleDef>Spikecore_StalkerHood</styleDef>
-      </li>
-    </value>
-  </Operation>
-
 </Patch>
