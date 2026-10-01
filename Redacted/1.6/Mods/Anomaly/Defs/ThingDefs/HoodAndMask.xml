@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
   <ThingStyleDef>
@@ -6,6 +7,7 @@
     <graphicData>
       <texPath>Hoods/Mask/StalkerMask</texPath>
       <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
     </graphicData>
   </ThingStyleDef>
 
