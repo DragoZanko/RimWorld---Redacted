@@ -160,7 +160,6 @@
     <aiCanUse>true</aiCanUse>
     <displayGizmoWhileUndrafted>true</displayGizmoWhileUndrafted>
     <disableGizmoWhileUndrafted>false</disableGizmoWhileUndrafted>
-    <hotKey>Misc1</hotKey>
     <targetRequired>false</targetRequired>
     <comps>
       <li Class="DragoZanko.Redacted.Animal.Ability">
@@ -171,7 +170,7 @@
     <verbProperties>
       <verbClass>Verb_CastAbility</verbClass>
       <range>-1</range>
-      <warmupTime>0.8</warmupTime>
+      <warmupTime>0.2</warmupTime>
       <drawAimPie>false</drawAimPie>
       <targetParams>
         <canTargetSelf>true</canTargetSelf>

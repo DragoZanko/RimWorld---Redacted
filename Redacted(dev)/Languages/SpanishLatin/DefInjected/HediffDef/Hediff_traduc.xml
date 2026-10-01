@@ -7,9 +7,24 @@
 
 
 
+<R_SecondThumb.label>segundo pulgar</R_SecondThumb.label>
+<R_SecondThumb.labelNoun>un segundo pulgar</R_SecondThumb.labelNoun>
+<R_SecondThumb.description>Un segundo pulgar biónico instalado.</R_SecondThumb.description>
 
 
-  <R_Run_Hediff.label>corriendo</R_Run_Hediff.label>
-  <R_Run_Hediff.description>Está corriendo.</R_Run_Hediff.description>
+
+<R_RevengeBionicArm.label>brazo biónico venganza</R_RevengeBionicArm.label>
+<R_RevengeBionicArm.labelNoun>un brazo biónico venganza</R_RevengeBionicArm.labelNoun>
+<R_RevengeBionicArm.description>Un brazo biónico venganza instalado. Puede dividirse en dos brazos de tres dedos, ofreciendo mejores capacidades para movimientos complejos, como los utilizados en el combate cuerpo a cuerpo.</R_RevengeBionicArm.description>
+<R_RevengeBionicArm.comps.HediffCompProperties_VerbGiver.tools.fist.label>puño</R_RevengeBionicArm.comps.HediffCompProperties_VerbGiver.tools.fist.label>
+
+
+
+
+
+
+
+<R_Run_Hediff.label>corriendo</R_Run_Hediff.label>
+<R_Run_Hediff.description>Está corriendo.</R_Run_Hediff.description>
 
 </LanguageData>

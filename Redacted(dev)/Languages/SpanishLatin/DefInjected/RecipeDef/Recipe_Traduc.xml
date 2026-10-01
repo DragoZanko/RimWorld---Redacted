@@ -9,4 +9,20 @@
 <R_RemoveSignalSigil.description>Extrae un sigilo de señal archotech. Su extracción puede causar daños estructurales en huesos y músculos.</R_RemoveSignalSigil.description>
 <R_RemoveSignalSigil.jobString>Extrayendo sigilo de señal.</R_RemoveSignalSigil.jobString>
 
+
+
+<R_InstallSecondThumb.label>instalar segundo pulgar</R_InstallSecondThumb.label>
+<R_InstallSecondThumb.description>Instalar un segundo pulgar.</R_InstallSecondThumb.description>
+<R_InstallSecondThumb.jobString>Instalando segundo pulgar.</R_InstallSecondThumb.jobString>
+
+<R_RemoveSecondThumb.label>extirpar segundo pulgar</R_RemoveSecondThumb.label>
+<R_RemoveSecondThumb.description>Extirpar segundo pulgar.</R_RemoveSecondThumb.description>
+<R_RemoveSecondThumb.jobString>Extirpando segundo pulgar.</R_RemoveSecondThumb.jobString>
+
+
+
+<R_InstallRevengeBionicArm.label>instalar brazo biónico venganza</R_InstallRevengeBionicArm.label>
+<R_InstallRevengeBionicArm.description>Instala un brazo biónico venganza.</R_InstallRevengeBionicArm.description>
+<R_InstallRevengeBionicArm.jobString>Instalando brazo biónico venganza.</R_InstallRevengeBionicArm.jobString>
+
 </LanguageData>

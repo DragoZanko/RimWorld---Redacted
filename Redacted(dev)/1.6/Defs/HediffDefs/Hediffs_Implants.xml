@@ -67,4 +67,177 @@
   <removesHediff>R_Hediff_SignalSigil</removesHediff>
 </RecipeDef>
 
+
+
+
+
+<ThingDef ParentName="BodyPartBionicBase">
+  <defName>R_SecondThumb</defName>
+  <label>second thumb</label>
+  <description>A second bionic thumb designed to be grafted onto the hand on the opposite side of the natural thumb.</description>
+  <descriptionHyperlinks><RecipeDef>R_InstallSecondThumb</RecipeDef></descriptionHyperlinks>
+  <graphicData>
+    <texPath>Things/Item/Health/HealthItem</texPath>
+    <graphicClass>Graphic_Single</graphicClass>
+    <drawSize>0.80</drawSize>
+    <color>(189,169,118)</color>
+  </graphicData>
+  <thingSetMakerTags><li>RewardStandardLowFreq</li></thingSetMakerTags>
+  <costList>
+    <Plasteel>6</Plasteel>
+    <ComponentSpacer>1</ComponentSpacer>
+  </costList>
+  <recipeMaker>
+    <researchPrerequisite>Bionics</researchPrerequisite>
+    <workAmount>20000</workAmount>
+  </recipeMaker>
+</ThingDef>
+
+<HediffDef ParentName="ImplantHediffBase">
+  <defName>R_SecondThumb</defName>
+  <label>second thumb</label>
+  <labelNoun>a second thumb</labelNoun>
+  <description>An installed bionic second thumb.</description>
+  <descriptionHyperlinks><ThingDef>R_SecondThumb</ThingDef></descriptionHyperlinks>
+  <spawnThingOnRemoved>R_SecondThumb</spawnThingOnRemoved>
+  <stages>
+    <li>
+      <capMods>
+        <li>
+          <capacity>Manipulation</capacity>
+          <offset>0.1</offset>
+        </li>
+      </capMods>
+    </li>
+  </stages>
+</HediffDef>
+
+<RecipeDef ParentName="SurgeryInstallImplantBase">
+  <defName>R_InstallSecondThumb</defName>
+  <label>install second thumb</label>
+  <description>Install a second thumb.</description>
+  <descriptionHyperlinks>
+    <ThingDef>R_SecondThumb</ThingDef>
+    <HediffDef>R_SecondThumb</HediffDef>
+  </descriptionHyperlinks>
+  <jobString>Installing second thumb.</jobString>
+  <ingredients>
+    <li>
+      <filter>
+        <thingDefs>
+          <li>R_SecondThumb</li>
+        </thingDefs>
+      </filter>
+      <count>1</count>
+    </li>
+  </ingredients>
+  <fixedIngredientFilter>
+    <thingDefs>
+      <li>R_SecondThumb</li>
+    </thingDefs>
+  </fixedIngredientFilter>
+  <appliedOnFixedBodyParts>
+    <li>Hand</li>
+  </appliedOnFixedBodyParts>
+  <addsHediff>R_SecondThumb</addsHediff>
+</RecipeDef>
+  
+<RecipeDef ParentName="SurgeryRemoveImplantBase">
+  <defName>R_RemoveSecondThumb</defName>
+  <label>remove second thumb</label>
+  <description>Remove second thumb.</description>
+  <descriptionHyperlinks>
+    <ThingDef>R_SecondThumb</ThingDef>
+    <HediffDef>R_SecondThumb</HediffDef>
+  </descriptionHyperlinks>
+  <jobString>Removing second thumb.</jobString>
+  <removesHediff>R_SecondThumb</removesHediff>
+</RecipeDef>
+
+
+
+
+
+<ThingDef ParentName="BodyPartBionicBase">
+  <defName>R_RevengeBionicArm</defName>
+  <label>revenge bionic arm</label>
+  <description>A special bionic arm. that can split into two three-fingered arms, offering enhanced capabilities for complex movements, such as those used in hand-to-hand combat.</description>
+  <descriptionHyperlinks><RecipeDef>R_InstallRevengeBionicArm</RecipeDef></descriptionHyperlinks>
+  <costList>
+    <Plasteel>15</Plasteel>
+    <ComponentSpacer>4</ComponentSpacer>
+  </costList>
+  <thingSetMakerTags><li>RewardStandardMidFreq</li></thingSetMakerTags>
+  <statBases>
+    <Mass>5</Mass>
+  </statBases>
+</ThingDef>
+
+<HediffDef ParentName="AddedBodyPartBase">
+  <defName>R_RevengeBionicArm</defName>
+  <label>revenge bionic arm</label>
+  <labelNoun>a revenge bionic arm</labelNoun>
+  <description>An installed revenge bionic arm. that can split into two three-fingered arms, offering enhanced capabilities for complex movements, such as those used in hand-to-hand combat.</description>
+  <descriptionHyperlinks><ThingDef>R_RevengeBionicArm</ThingDef></descriptionHyperlinks>
+  <comps>
+    <li Class="HediffCompProperties_VerbGiver">
+      <tools>
+        <li>
+          <label>fist</label>
+          <capacities>
+            <li>Blunt</li>
+          </capacities>
+          <power>9</power>
+          <cooldownTime>1.7</cooldownTime>
+          <soundMeleeHit>MeleeHit_BionicPunch</soundMeleeHit>
+          <soundMeleeMiss>MeleeMiss_BionicPunch</soundMeleeMiss>
+        </li>
+      </tools>
+    </li>
+  </comps>
+  <spawnThingOnRemoved>R_RevengeBionicArm</spawnThingOnRemoved>
+  <addedPartProps>
+    <solid>true</solid>
+    <partEfficiency>1.1</partEfficiency>
+    <betterThanNatural>true</betterThanNatural>
+  </addedPartProps>
+  <stages>
+    <li>
+      <statFactors>
+        <MeleeCooldownFactor>0.85</MeleeCooldownFactor>
+      </statFactors>
+    </li>
+  </stages>
+</HediffDef>
+
+<RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+  <defName>R_InstallRevengeBionicArm</defName>
+  <label>install revenge bionic arm</label>
+  <description>Install a revenge bionic arm.</description>
+  <descriptionHyperlinks>
+    <ThingDef>R_RevengeBionicArm</ThingDef>
+    <HediffDef>R_RevengeBionicArm</HediffDef>
+  </descriptionHyperlinks>
+  <jobString>Installing revenge bionic arm.</jobString>
+  <ingredients>
+    <li>
+      <filter>
+        <thingDefs>
+          <li>R_RevengeBionicArm</li>
+        </thingDefs>
+      </filter>
+      <count>1</count>
+    </li>
+  </ingredients>
+  <fixedIngredientFilter>
+    <thingDefs>
+      <li>R_RevengeBionicArm</li>
+    </thingDefs>
+  </fixedIngredientFilter>
+  <appliedOnFixedBodyParts>
+    <li>Shoulder</li>
+  </appliedOnFixedBodyParts>
+  <addsHediff>R_RevengeBionicArm</addsHediff>
+</RecipeDef>
+
 </Defs>

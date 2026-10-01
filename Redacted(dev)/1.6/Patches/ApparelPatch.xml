@@ -18,4 +18,23 @@
     </operations>
   </Operation>
 
+
+
+  <Operation Class="PatchOperationSequence">
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Apparel_WarVeil"]/graphicData/texPath</xpath>
+        <value>
+          <texPath>Veil/NewVeil</texPath>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Apparel_WarVeil"]/apparel/wornGraphicPath</xpath>
+        <value>
+          <wornGraphicPath>Veil/NewVeil</wornGraphicPath>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+
 </Patch>

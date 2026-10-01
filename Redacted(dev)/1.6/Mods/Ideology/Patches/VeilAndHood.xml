@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/StyleCategoryDef[defName="Spikecore"]/thingDefStyles</xpath>
+    <value>
+      <li>
+        <thingDef>Apparel_HatHood</thingDef>
+        <styleDef>Spikecore_StalkerHood</styleDef>
+      </li>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/StyleCategoryDef[defName="Morbid"]/thingDefStyles</xpath>
+    <value>
+      <li>
+        <thingDef>Apparel_WarVeil</thingDef>
+        <styleDef>Morbid_WarVeil</styleDef>
+      </li>
+    </value>
+  </Operation>
+
+</Patch>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingStyleDef>
+    <defName>Spikecore_StalkerHood</defName>
+    <wornGraphicPath>Hoods/StalkerHood</wornGraphicPath>
+    <graphicData>
+      <texPath>Hoods/StalkerHood</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+  </ThingStyleDef>
+
+  <ThingStyleDef>
+    <defName>Morbid_WarVeil</defName>
+    <wornGraphicPath>Veil/StalkerVeil</wornGraphicPath>
+    <graphicData>
+      <texPath>Veil/StalkerVeil</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+  </ThingStyleDef>
+
+</Defs>
