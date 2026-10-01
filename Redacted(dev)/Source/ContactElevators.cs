@@ -41,7 +41,7 @@ namespace DragoZanko.Redacted
                 pawn.DeSpawn(DestroyMode.Vanish);
             }
 
-            travelers.Add(new ElevatorTravelData(pawn, ability, 300000));
+            travelers.Add(new ElevatorTravelData(pawn, ability, 69041));
         }
 
         public override void MapComponentTick()
@@ -73,7 +73,7 @@ namespace DragoZanko.Redacted
                 }
             }
 
-            int agingTicks = 300000;
+            int agingTicks = 69041;
             data.pawn.ageTracker.AgeBiologicalTicks += agingTicks;
             data.pawn.ageTracker.AgeChronologicalTicks += agingTicks;
 

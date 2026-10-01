@@ -1,0 +1,7 @@
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Redacted\1.6\Assemblies\Redacted_Core.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Redacted\1.6\Assemblies\Redacted_Core.pdb
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Redacted\Source\obj\Release\Redacted.csproj.AssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Redacted\Source\obj\Release\Redacted.GeneratedMSBuildEditorConfig.editorconfig
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Redacted\Source\obj\Release\Redacted.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Redacted\Source\obj\Release\Redacted_Core.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Redacted\Source\obj\Release\Redacted_Core.pdb

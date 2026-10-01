@@ -69,7 +69,7 @@ namespace DragoZanko.Redacted
                 }
             }
 
-            int agingTicks = 300000;
+            int agingTicks = 69041;
             data.pawn.ageTracker.AgeBiologicalTicks += agingTicks;
             data.pawn.ageTracker.AgeChronologicalTicks += agingTicks;
 
