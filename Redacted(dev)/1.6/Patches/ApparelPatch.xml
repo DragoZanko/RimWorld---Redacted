@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+  <Operation Class="PatchOperationSequence">
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Apparel_HatHood"]/graphicData/texPath</xpath>
+        <value>
+          <texPath>Hoods/NewHood</texPath>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Apparel_HatHood"]/apparel/wornGraphicPath</xpath>
+        <value>
+          <wornGraphicPath>Hoods/NewHood</wornGraphicPath>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+
+
+
+  <Operation Class="PatchOperationSequence">
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Apparel_WarVeil"]/graphicData/texPath</xpath>
+        <value>
+          <texPath>Veil/NewVeil</texPath>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Apparel_WarVeil"]/apparel/wornGraphicPath</xpath>
+        <value>
+          <wornGraphicPath>Veil/NewVeil</wornGraphicPath>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+
+</Patch>
