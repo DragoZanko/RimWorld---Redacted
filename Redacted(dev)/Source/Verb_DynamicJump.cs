@@ -20,7 +20,7 @@ namespace DragoZanko.Redacted
 
         protected override bool TryCastShot()
         {
-            bool exito = JumpUtility.DoJump(
+            bool success = JumpUtility.DoJump(
                 this.CasterPawn, 
                 this.currentTarget, 
                 base.ReloadableCompSource, 
@@ -30,7 +30,7 @@ namespace DragoZanko.Redacted
                 null
             );
 
-            if (exito && CasterPawn?.abilities != null)
+            if (success && CasterPawn?.abilities != null)
             {
                 AbilityDef jumpDef = DefDatabase<AbilityDef>.GetNamedSilentFail("R_Jump");
                 if (jumpDef != null)
@@ -43,7 +43,7 @@ namespace DragoZanko.Redacted
                 }
             }
 
-            return exito;
+            return success;
         }
 
         public override bool CanHitTargetFrom(IntVec3 root, LocalTargetInfo targ)

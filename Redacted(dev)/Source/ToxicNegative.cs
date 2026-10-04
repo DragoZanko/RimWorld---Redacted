@@ -2,14 +2,14 @@ using HarmonyLib;
 using Verse;
 using RimWorld;
 
-namespace TuModResistenciaNegativa
+namespace DragoZanko.Redacted
 {
     [StaticConstructorOnStartup]
-    public static class ModIniciador
+    public static class ModInitializer
     {
-        static ModIniciador()
+        static ModInitializer()
         {
-            var harmony = new Harmony("com.tunametag.resistencianegativa");
+            var harmony = new Harmony("com.dragozanko.negativeenvironmentresistance");
             harmony.PatchAll();
 
             if (StatDefOf.ToxicEnvironmentResistance != null)
