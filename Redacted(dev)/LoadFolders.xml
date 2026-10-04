@@ -8,5 +8,6 @@
     <li IfModActive="Ludeon.RimWorld.Ideology">1.6/Mods/Ideology</li>
     <li IfModActive="Ludeon.RimWorld.Anomaly">1.6/Mods/Anomaly</li>
     <li IfModActive="DragoZanko.Ultra.Genes">1.6/Mods/UltraGenes</li>
+    <li IfModActive="CETeam.CombatExtended">1.6/Mods/CE</li>
   </v1.6>
 </loadFolders>
